@@ -18,7 +18,7 @@
                 <div class="nav-links">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
-                    <select id="researchDropdown" class="research-option" onclick="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <select id="researchDropdown" class="research-option" onchange="this.value && (window.location = this.value);">
                         <option value="" disabled selected>Research</option>
                         <option value="../research/research-and-consultancy.html">Research and Consultancy</option>
                         <option value="../research/survey-assessments.html">Survey and Assessments</option>
